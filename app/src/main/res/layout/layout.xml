@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:foregroundTint="#783A3A">
+
+    <LinearLayout
+        android:layout_width="288dp"
+        android:layout_height="96dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtPatrimonio"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:text="TextView"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtNome"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:text="@string/textview"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtCategoria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnEditar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#2FBF75"
+            android:backgroundTintMode="add"
+            android:foregroundTint="#F30000"
+            android:text="Editar"
+            android:textColor="#4E342E"
+            tools:text="Editar" />
+
+        <Button
+            android:id="@+id/btnApagar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#C51818"
+            android:text="Apagar"
+            tools:text="Apagar" />
+    </LinearLayout>
+
+</LinearLayout>

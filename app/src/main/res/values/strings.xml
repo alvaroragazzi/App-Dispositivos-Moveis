@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Controle Patrimonial</string>
+    <string name="button">Button</string>
+    <string name="textview">TextView</string>
+    <string-array name="categorias">
+        <item>Computador</item>
+        <item>Mouse</item>
+        <item>Teclado</item>
+    </string-array>
+</resources>
